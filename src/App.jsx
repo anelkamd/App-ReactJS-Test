@@ -1,6 +1,7 @@
 function App() {
   return <>
-    <p>Compteur</p>
+    <p>Compteur : {count}</p>
+    
   </>
 }
 
