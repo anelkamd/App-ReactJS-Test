@@ -30,8 +30,14 @@ function App() {
     <p>Age de {person.firstname} : {person.age}</p>
     <button onClick={increment}>Incrementer</button>
   </>
-  */
+  ======= creer un champ controler =======
   const [ firstname , setfirstname] = useState('Anelka MD')
+
+  const handelchange = (e) => {
+    setfirstname(e.target.value)
+  }
+  ============================================
+  */
 
 
   return <form >
