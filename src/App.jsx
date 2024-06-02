@@ -1,3 +1,5 @@
+import { useState } from "react"
+
 function App() {
 
   /*
@@ -29,9 +31,12 @@ function App() {
     <button onClick={increment}>Incrementer</button>
   </>
   */
-    return <form >
-      <input type="text" name="Firstname" />
-    </form>
+  const [ firstname , setfirstname] = useState('Anelka MD')
+
+
+  return <form >
+    <input type="text" name="Firstname" />
+  </form>
 }
 
 export default App
