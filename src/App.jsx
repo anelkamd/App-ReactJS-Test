@@ -38,10 +38,14 @@ function App() {
   }
   ============================================
   */
+  const hendelSubmite = (e) => (
+    e.preventDefault(),
+    console.log(new FormData(e.target))
+  )
 
-
-  return <form >
-    <input type="text" name="Firstname" />
+  return <form onSubmit={hendelSubmite}>
+    <input type="text" name="Firstname" defaultValue={'votre nom Svp'}/>
+    <button type="button">Envoiyer</button>
   </form>
 }
 
