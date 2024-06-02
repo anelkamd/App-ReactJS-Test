@@ -20,13 +20,13 @@ function App() {
     age : 22
   })
   const increment = () => {
-    setperson(...person.firstname, person.age + 1)
+    setperson({...person, age : person.age + 1})
   }
 
   
 
   return <>
-    <p>Age de : {person.firstname}</p>
+    <p>Age de {person.firstname} : {person.age}</p>
     <button onClick={increment}>Incrementer</button>
   </>
 }
