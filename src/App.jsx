@@ -1,8 +1,7 @@
-import { useState } from "react"
-
 function App() {
 
-  /*const [ count , setCount] = useState(0)
+  /*
+  const [ count , setCount] = useState(0)
 
   const increment = () => {
     setCount( count + 1)
@@ -10,7 +9,7 @@ function App() {
   const decrement = () => {
     setCount( count - 1)
   }
-  */
+  
 
   // Dans le cadre d'un obje //
 
@@ -29,6 +28,10 @@ function App() {
     <p>Age de {person.firstname} : {person.age}</p>
     <button onClick={increment}>Incrementer</button>
   </>
+  */
+    return <form >
+      <input type="text" name="Firstname" />
+    </form>
 }
 
 export default App
