@@ -1,5 +1,7 @@
 function App() {
-  return 'Bonjour MD'
+  return <>
+    <p>Compteur</p>
+  </>
 }
 
 export default App
