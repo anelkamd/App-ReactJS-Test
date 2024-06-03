@@ -43,13 +43,14 @@ function App() {
     console.log(new FormData(e.target))
   )
   ============================================
-  */
-  
-
-  return <form onSubmit={hendelSubmite}>
+  <form onSubmit={hendelSubmite}>
     <input type="text" name="Firstname" defaultValue={'votre nom Svp'}/>
     <button type="button">Envoiyer</button>
   </form>
+  */
+  
+
+  return 
 }
 
 export default App
