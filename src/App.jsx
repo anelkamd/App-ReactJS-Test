@@ -12,7 +12,7 @@ function App() {
   const decrement = () => {
     setCount( count - 1)
   }
-  
+  ================================
   
 
   // Dans le cadre d'un obje //
