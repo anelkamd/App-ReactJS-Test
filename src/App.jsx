@@ -25,13 +25,14 @@ function App() {
   const increment = () => {
     setperson({...person, age : person.age + 1})
   }
-
-  ===============================
-  
   return <>
     <p>Age de {person.firstname} : {person.age}</p>
     <button onClick={increment}>Incrementer</button>
   </>
+
+  ===============================
+
+  
   ======= creer un champ controler =======
   const [ firstname , setfirstname] = useState('Anelka MD')
 
