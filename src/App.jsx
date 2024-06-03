@@ -26,8 +26,8 @@ function App() {
     setperson({...person, age : person.age + 1})
   }
 
+  ===============================
   
-
   return <>
     <p>Age de {person.firstname} : {person.age}</p>
     <button onClick={increment}>Incrementer</button>
