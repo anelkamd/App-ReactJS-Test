@@ -1,8 +1,9 @@
 
 
 function App() {
-
+  
   /*
+  ======= Incrementation===========
   const [ count , setCount] = useState(0)
 
   const increment = () => {
@@ -11,6 +12,7 @@ function App() {
   const decrement = () => {
     setCount( count - 1)
   }
+  
   
 
   // Dans le cadre d'un obje //
