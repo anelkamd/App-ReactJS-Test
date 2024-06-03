@@ -31,20 +31,20 @@ function App() {
   </>
 
   ===============================
-
   
-  ======= creer un champ controler =======
+  ======= creer un champ controler  et non controler =======
   const [ firstname , setfirstname] = useState('Anelka MD')
 
   const handelchange = (e) => {
     setfirstname(e.target.value)
   }
-  ============================================
-  */
   const hendelSubmite = (e) => (
     e.preventDefault(),
     console.log(new FormData(e.target))
   )
+  ============================================
+  */
+  
 
   return <form onSubmit={hendelSubmite}>
     <input type="text" name="Firstname" defaultValue={'votre nom Svp'}/>
