@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 function App() {
@@ -56,6 +56,10 @@ function App() {
  function changetillte ()  {
     const [tittle , setTitle] = useState('')
     const [firstname , seutfirstname] = useState('')
+
+    useEffect(() => {
+      document.title
+    },[])
  }
   
 
