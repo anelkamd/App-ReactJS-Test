@@ -1,3 +1,4 @@
+import { useState } from "react"
 
 
 function App() {
@@ -47,7 +48,14 @@ function App() {
     <input type="text" name="Firstname" defaultValue={'votre nom Svp'}/>
     <button type="button">Envoiyer</button>
   </form>
+
+  ============ UseEffect =======
+
+  
   */
+ function changetillte ()  {
+    const [tittle , setTitle] = useState('')
+ }
   
 
   return 
