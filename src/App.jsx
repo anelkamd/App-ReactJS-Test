@@ -55,6 +55,7 @@ function App() {
   */
  function changetillte ()  {
     const [tittle , setTitle] = useState('')
+    const [firstname , seutfirstname] = useState('')
  }
   
 
